@@ -22,10 +22,11 @@
   ],
   "main": "./lib/xpush.js",
   "dependencies": {
-    "influx": "^3.4.0",
+    "bluebird": "^3.3.3",
+    "influx": ">==3.x",
     "node-zookeeper-client": "^0.2.2",
     "optimist": "^0.6.1",
-    "socket.io-client": "^1.3.5"
+    "socket.io-client": "^1.4.5"
   },
   "devDependencies": {},
   "repository": {
